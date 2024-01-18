@@ -20,8 +20,8 @@ DisHost is a user-friendly file hosting service that offers generous storage for
 
 You can use DisHost via our SDK, which simplifies the process of uploading and downloading files. To integrate DisHost into your project, follow these steps:
 
-1. Download the DisHost SDK from [GitHub](https://github.com/YourGitHubAccount/DisHostSDK).
-
+1. Download the DisHost SDK.
+(private alpha SDK cannot be downloaded!)
 2. Include the SDK in your project.
 
 
