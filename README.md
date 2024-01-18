@@ -1,6 +1,3 @@
-Creating a GitHub Docs page for your tool DisHost is a great idea to provide documentation and explanations for users. Below, I'll provide a template for your GitHub Docs page, and you can customize it further according to your needs.
-
-```markdown
 # DisHost Documentation
 
 Welcome to the official documentation for DisHost, a file hosting tool that allows you to host files up to 75GB for free for life. This page will guide you through using DisHost and provide code examples to help you get started.
@@ -27,17 +24,16 @@ You can use DisHost via our SDK, which simplifies the process of uploading and d
 
 2. Include the SDK in your project.
 
-```bash
+
 # Example for including the DisHost SDK in your project using npm
 npm install dis-host-sdk
-```
+
 
 ## Usage
 
 ### Uploading Files
 
 To upload a file using DisHost, use the following code:
-
 ```csharp
 using DisHost;
 
