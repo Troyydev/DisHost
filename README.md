@@ -25,8 +25,8 @@ You can use DisHost via our SDK, which simplifies the process of uploading and d
 2. Include the SDK in your project.
 
 
-# Example for including the DisHost SDK in your project using npm
-npm install dis-host-sdk
+# Example for including the DisHost SDK in your project 
+drag the Sdk in and import it
 
 
 ## Usage
