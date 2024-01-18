@@ -44,7 +44,7 @@ int PrivateKey = 100;
 // Upload the file
 DisHost.Upload(filePath, PrivateKey);
 ```
-
+Also this code will also log ur id for ur upload in debug logs!
 ### Downloading Files
 
 To download a file using DisHost, use the following code:
@@ -59,7 +59,7 @@ string saveName = "downloaded-file.ext";
 // Download the file
 DisHost.DownloadFile.Download(fileId, saveName);
 ```
-
+You can get the ID from when saved in the upload or the discord using the bot!
 ## SDK Integration
 
 The DisHost SDK makes it easy to integrate DisHost into your project. It provides functions for uploading and downloading files, as demonstrated above.
