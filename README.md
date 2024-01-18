@@ -39,9 +39,10 @@ using DisHost;
 
 // Specify the file path you want to upload
 string filePath = "path/to/your/file.ext";
-
+//private key for later delete if wish
+int PrivateKey = 100;
 // Upload the file
-DisHost.Upload(filePath);
+DisHost.Upload(filePath, PrivateKey);
 ```
 
 ### Downloading Files
@@ -77,16 +78,23 @@ The `DisHost.DownloadFile.Download(string fileId, string saveName)` method allow
 A: Yes, DisHost offers free hosting for files up to 75GB with no time limits.
 
 **Q: How can I manage my hosted files?**
-A: You can manage your hosted files through the DisHost web interface or by using the provided SDK.
+A: You can manage your hosted files through the DisHost SDK while uploading you give it a private key to request a delete do as the following.
+```csharp
+using DisHost;
+
+// Specify the Reason to delete the file
+string Reason = "I no longer wish to have my files here.";
+//private key provided on deletion
+int PrivateKey = 100;
+// Remove file from server
+DisHost.Remove(Reason, PrivateKey);
+```
 
 **Q: Can I use DisHost for commercial purposes?**
 A: Yes, you can use DisHost for both personal and commercial purposes.
 
-For more information and updates, please visit our [GitHub repository](https://github.com/YourGitHubAccount/DisHost).
+For more information and updates, please visit our [GitHub repository](https://github.com/Troyydev/DisHost).
 
-If you have any questions or need further assistance, feel free to [contact our support team](mailto:support@dishost.com).
+If you have any questions or need further assistance, feel free to [contact our support team](mailto:support@troyyhelps.co.uk).
 
 Happy hosting with DisHost!
-```
-
-Remember to replace "YourGitHubAccount" with your actual GitHub account name and provide appropriate links and contact information. You can also add more sections, examples, or FAQs to provide comprehensive documentation for your tool, DisHost.
