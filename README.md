@@ -75,7 +75,8 @@ The `DisHost.DownloadFile.Download(string fileId, string saveName)` method allow
 ## FAQ
 
 **Q: Is DisHost really free for life?**
-A: Yes, DisHost offers free hosting for files up to 75GB with no time limits.
+A: Yes, DisHost offers free hosting for files up to 75GB.
+But you will get a file cooldown you cant upload ur file while another one is uploading and you get a 5 min file cooldown.
 
 **Q: How can I manage my hosted files?**
 A: You can manage your hosted files through the DisHost SDK while uploading you give it a private key to request a delete do as the following.
